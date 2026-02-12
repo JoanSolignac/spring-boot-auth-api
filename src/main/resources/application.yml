@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: spring-boot-auth-api
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        '[time_zone]': UTC
+  output:
+    ansi:
+      enabled: ALWAYS
